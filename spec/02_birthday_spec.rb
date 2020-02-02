@@ -28,13 +28,3 @@ describe "#age_appropriate_birthday" do
   end
 end
 
-def happy_birthday(birthday_kids)
-  greeting= ""
-  birthday_kids.each do |kids_name, age|
-  if birthday_kids == :timmy && :sarah
-    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
-    elsif 
-    puts "You are too old for this"
-  end
-  greeting
-end
