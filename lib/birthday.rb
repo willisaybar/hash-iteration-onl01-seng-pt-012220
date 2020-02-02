@@ -14,7 +14,7 @@ end
 def happy_birthday(birthday_kids)
   greeting= ""
   birthday_kids.each do |kids_name, age|
-  if birthday_kids == :timmy && :sarah
+  if age < 12 
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
     elsif 
     puts "You are too old for this"
