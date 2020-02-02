@@ -19,5 +19,6 @@ def happy_birthday(birthday_kids)
     elsif 
     puts "You are too old for this"
   end
+  end
   greeting
 end
